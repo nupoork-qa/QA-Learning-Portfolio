@@ -1,10 +1,7 @@
 # QA-Learning-Portfolio
-- This portfolio documents my journey to becoming a Software Testing Professional.
+This portfolio documents my journey to becoming a Software Testing Professional.
 
-# There are two types of QA 
-- Manual Testing
-- Automation Testing
-- I am currently learning Manual Testing fundamentals.
+<img width="522" height="587" alt="image" src="https://github.com/user-attachments/assets/f62b53d1-f5d3-4d12-9da4-a2ca0e808b36" />
 
 # Modules
 - 📚 Module 1: Testing Fundamentals (In Progress)
