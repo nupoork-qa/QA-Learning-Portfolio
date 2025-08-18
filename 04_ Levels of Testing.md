@@ -52,3 +52,31 @@ TDD ( Technical Document Diagram )
   -  If any other lower-level modules are missing, they can also be replaced by stubs.
 
 <img width="689" height="797" alt="image" src="https://github.com/user-attachments/assets/2aec3636-1f2f-4fce-87c4-b71630670f11" />
+
+
+# BOTTOM UP Inceremental Inegration testing :
+- The bottom-up method of Incremental Testing moves in an upward manner.
+- In this method, the lower-level modules are tested first and integrated with higher-level modules.
+- This is the right approach when bottom-level subsystems are test-ready.
+- In this case, stubs are not required because the lower-level modules are already running.
+- However, if higher-level subsystems are not ready for testing and integration, drivers (called calling programs) replace them.
+- For example,
+- In the bottom-up approach, the testing will begin with the Pay and Cart modules.
+- Once tested, they are integrated with the PDP module.
+- After this, PDP is tested with PLP, and the process is repeated until all modules are integrated, ending with the Log module—the highest-level subsystem in the application.
+  
+  <img width="644" height="763" alt="image" src="https://github.com/user-attachments/assets/899793d5-a20b-4b99-a80a-86f593eff1b8" />
+
+
+# 3. Sandwich Testing
+
+- Sandwich testing methodology combines top-down and bottom-up testing approaches.
+- It is also known as hybrid integration testing.
+- In sandwich testing, there are three distinct layers involved:
+- Main target layer – the core layer being tested.
+- Layer above the target – the higher-level interface or module.
+- Layer below the target – the lower-level functions or modules.
+  
+-  The process starts by testing the user interface (top layer) using stubs, which simulate the middle and lower layers.
+-  Next, the lowest-level functions (bottom layer) are tested using drivers, which mimic the upper layers.
+-  Finally, once all layers are integrated, the main target (middle layer) is tested as part of the whole system, ensuring proper interaction between all layers.
